@@ -26,3 +26,9 @@
     top: -5rem;
     padding: 1.5rem;
 }
+@media screen and (width >= 768px){
+    .dashboardcontainer{
+        display: grid;
+        grid-template-columns: repeat(4,255px);
+    }
+}

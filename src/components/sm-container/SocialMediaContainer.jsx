@@ -1,8 +1,6 @@
 import styles from './social-media-container.module.css';
 
 const SocialMediaContainer = ({ children }) => {
-	// SIN ESTILOS TODAVIA
-
-	return <div>{children}</div>;
+  return <div className={styles.container}>{children}</div>;
 };
 export default SocialMediaContainer;
