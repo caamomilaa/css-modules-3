@@ -1,0 +1,53 @@
+.card{
+    background-color: var(--primary-700);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.3125rem;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4375rem;
+}
+.text{
+    font-size: var(--text-s);
+    font-weight: var(--bold);
+    color: var(--primary-300);
+    margin: 0;
+}
+.number{
+    font-size: var(--title-l);
+    font-weight: var(--bold);
+    color: var(--primary-100);
+    margin: 0;
+    text-align: end;
+}
+
+.smcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.statscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.statstext{
+    margin: 0;
+    font-size: var(--text-xs);
+    font-weight: var(--bold);
+}
+.green{
+    color: var(--second-accent-color-500);
+}
+.red{
+    color: var(--fisrt-accent-color-500);
+}

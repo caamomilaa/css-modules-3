@@ -1,0 +1,28 @@
+.smcontainer{
+    display:  flex;
+    flex-direction: column;
+}
+
+.textcontainer{
+    padding: 2.25rem 1.5rem 9.3125rem 1.5rem;
+    background-color: var(--primary-800);
+    border-radius: 0 0 1.25rem 1.25rem;
+}
+.title{
+    font-size: var(--title-m);
+    color: var(--primary-100);
+}
+.text{
+    font-size: var(--text-s);
+    font-weight: var(--bold);
+    color: var(--primary-300);
+}
+
+.dashboardcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    top: -5rem;
+    padding: 1.5rem;
+}

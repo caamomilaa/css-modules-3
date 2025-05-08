@@ -1,28 +1,30 @@
-// import styles from './social-media-item.module.css';
+import styles from './social-media-item.module.css';
 
 const SocialMediaItem = ({
-	// gradient,
+	gradient,
 	socialmedia,
 	username,
 	number,
 	text,
-	// color,
+	color,
 	icon,
 	update
 }) => {
+	const cardStyles = `${styles.card} ${styles[gradient]}`;
+	const updateContainerStyles = `${styles.updatecontainer} ${styles[color]}`;
 	return (
-		<article>
-			<div>
+		<article className={cardStyles}>
+			<div className={styles.socialmediacontainer}>
 				<img src={socialmedia} alt='' />
-				<span>{username}</span>
+				<span className={styles.user}>{username}</span>
 			</div>
-			<div>
-				<span>{number}</span>
-				<span>{text}</span>
+			<div className={styles.datacontainer}>
+				<span className={styles.number}>{number}</span>
+				<span className={styles.text}>{text}</span>
 			</div>
-			<div>
+			<div className={updateContainerStyles}>
 				<img src={icon} alt='' />
-				<span>{update}</span>
+				<span className={styles.updatetext}>{update}</span>
 			</div>
 		</article>
 	);
