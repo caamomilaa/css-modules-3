@@ -22,7 +22,6 @@
     font-weight: var(--bold);
     color: var(--primary-100);
     margin: 0;
-    text-align: end;
 }
 
 .smcontainer{
